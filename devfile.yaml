@@ -9,14 +9,6 @@ attributes:
   controller.devfile.io/storage-type: per-user
   dw.metadata.annotations:
     che.eclipse.org/che-editor: che-incubator/che-code/insiders
-    che.eclipse.org/devfile-source: |
-      url:
-        location: >-
-          https://devspaces.apps.ocp.int.autoheim.net/dashboard/devfile-registry/devfiles/empty.yaml
-      factory:
-        params: >-
-          storageType=per-user&url=https://devspaces.apps.ocp.int.autoheim.net/dashboard/devfile-registry/devfiles/empty.yaml
-    che.eclipse.org/last-updated-timestamp: '2023-03-23T10:10:35.815Z'
 components:
   - attributes:
       che-code.eclipse.org/contribute-cpuLimit: true
